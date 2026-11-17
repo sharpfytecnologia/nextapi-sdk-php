@@ -1,0 +1,6 @@
+# Fora do pacote baixado pelo Composer (dist): só src/, README, LICENSE e composer.json.
+/tests export-ignore
+/contract export-ignore
+/readmecheck export-ignore
+/.gitattributes export-ignore
+/.gitignore export-ignore
