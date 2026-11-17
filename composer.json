@@ -1,0 +1,42 @@
+{
+  "name": "sharpfy/nextapi",
+  "description": "SDK oficial da NextAPI para PHP: CNPJ (inclusive alfanumérico), CEP, sócios e mercado. Sem dependências.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "nextapi",
+    "sharpfy",
+    "cnpj",
+    "receita-federal",
+    "cep",
+    "sdk",
+    "api"
+  ],
+  "authors": [
+    {
+      "name": "Sharpfy",
+      "email": "contato@sharpfy.com.br",
+      "homepage": "https://nextapi.com.br"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sharpfy\\NextApi\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "scripts": {
+    "test": "php tests/run_tests.php"
+  },
+  "support": {
+    "source": "https://github.com/sharpfytecnologia/nextapi-sdk-php",
+    "issues": "https://github.com/sharpfytecnologia/nextapi-sdk-php/issues",
+    "docs": "https://docs.nextapi.com.br"
+  }
+}
